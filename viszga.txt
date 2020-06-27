@@ -1,0 +1,66 @@
+1. Posix
+
+A "Portable Operating System Interface for uniX" vagy röviden POSIX egy kollektív neve azon szabványok családjának, melyeket az IEEE a Unix operációs rendszerek APIjának meghatározásaként definiált. Formális neve IEEE 1003, hivatalos megnevezése: ISO/IEC 9945. A projekt körülbelül 1985-ben jelent meg. A POSIX kifejezést Richard M. Stallman javasolta, az IEEE azon kérésére, hogy érthetőbb nevet adjon a szabványnak, a korábban használt IEEE-IX helyett. 
+
+2. mia az a x11
+
+Az X Window rendszer (X11) a grafikus felhasználói felületek de facto szabványa UNIX alatt.
+
+3. stdin stdout
+standard input pl. billentyűzet és standard output pl. képernyő
+
+4. Mik a daemonok
+
+A háttérfolyamat egy speciális fajtája démon folyamat. Ezt a rendszer automatikusan indítja el és valamilyen felügyeleti szerepet lát el. Például gondoskodik a terminálvonalak figyelésérõl, a nyomtatási kérelmek besorolásáról és végrehajtásáról.
+
+A démonoknak végrehajtásra átadott nyomtatási és egyéb kérelmeket job-oknak nevezik, ezeket a démon sürgõsségi és egyéb szempontok alapján sorba rendezi és egyenként hajtja végre. 
+
+5. Mit tartalmaznak a következő mappák?
+/bin Bináris programok könyvtára, itt vannak a legfontosabb végrehajtható bináris programok . 
+/etc Egyéb rendszerfájlok, rendszerint a rendszeradminisztrációs fájlok. A legtöbb esetben itt van a jelszavakat tároló fájl is. 
+/usr A felhasználói fájlrendszer: munkakönyvtárak, stb. 
+/home Bejelentkezési katalógus (Home directory) 
+
+
+6. ponttal kezdődő file-ok.
+rejtett file-ok
+
+7.utvonalak
+Abszolút /bin/nano
+/munka/vizsga
+
+relatív. az aktuális helyzethez mért útvonal
+én a home könyvtárban vagoyk és onnan a ./work/index.js
+
+8.
+touch zeta-szakaszzaro
+
+9. 
+echo "Hello" > zeta-szakaszzaro 
+
+10
+echo "Hello" > zeta-szakaszzaro 
+
+11.
+cp feladat feladat2
+
+12.
+rm feladat2
+
+13.
+cat feladat 
+
+14.
+grep -x "NetworkManager" /var/log/syslog
+
+15.
+
+
+
+
+
+
+
+
+
+
